@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Users</title>
+    <link rel="stylesheet" href="../static/css/get_users.css">
+</head>
+<body>
+    <h1>Users List</h1>
+    <ul>
+        {% for user in users %}
+            <li>{{ user }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
